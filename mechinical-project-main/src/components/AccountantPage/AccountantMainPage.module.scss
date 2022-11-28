@@ -1,0 +1,103 @@
+.accountantMainPage {
+  height: 80vh;
+  background-color: lightgray;
+
+  .orderDetailsTable {
+    // border: 1px thick black;
+    border: 1px solid black;
+    border-collapse: collapse;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 0 6px 6px #4f000b, 0 6px 0 #002851, -1px 0px 0 #003872,
+      0px 0px 0 #003872, 0px 7px 8px #000, 0 7px 20px #1b1b1b;
+  }
+
+  th,
+  td,
+  tr {
+    padding: 1rem 3rem;
+    border: 1px solid black;
+    color: white;
+  }
+  td {
+    color: black;
+  }
+  th {
+    border: 1px solid black;
+    background-color: rgb(8, 134, 192);
+  }
+
+  button {
+    background: none;
+    border: none;
+  }
+}
+
+.openPaymentHistoryModel {
+  height: 80vh;
+  background-color: black;
+  // opacity: 0.9;
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  .openPaymentHistoryPopup {
+    height: 70vh;
+    /* width: 54%; */
+    background-color: rgb(161, 207, 228);
+    width: 50%;
+    position: absolute;
+    left: 25%;
+    top: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+
+    .paymentHistoryTable {
+      border: 2px solid black;
+      border-collapse: collapse;
+    }
+    th,
+    td,
+    tr {
+      padding: 0.5rem;
+      border: 2px solid black;
+    }
+
+    input {
+      margin-top: 1rem;
+      padding: 1rem 5rem;
+      border-radius: 1rem;
+    }
+
+    .submitPaymentBtn {
+      padding: 0.5rem 9.3rem;
+      margin-top: 1rem;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 1rem;
+    }
+
+    .submitPaymentBtn:hover {
+      background-color: rgb(35, 218, 19);
+    }
+
+    .closePaymentBtn {
+      padding: 0.5rem 9.5rem;
+      margin-top: 1rem;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 1rem;
+    }
+
+
+    .closePaymentBtn:hover {
+      background-color: red;
+    }
+  }
+}

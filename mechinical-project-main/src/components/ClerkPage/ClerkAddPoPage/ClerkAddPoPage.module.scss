@@ -1,0 +1,108 @@
+.addPOModel{
+  display: flex;
+  // border: 2px solid black;
+
+  height: 80vh;
+
+  h2{
+    // align-items: center;
+    margin-left: 50%;
+  }
+
+  .customerSelect{
+    margin-left: 40%;
+    padding: 1rem 7rem;
+    background-color: rgb(8, 134, 192);
+    border: 1px solid black;
+    text-decoration: #000;
+    border-radius: 1rem;
+  }
+
+  input{
+    padding: 0.5rem 0.3rem;
+    margin: 1rem 1rem 1rem 2rem;
+    // margin-left: 1rem;
+    background-color: white;
+    border: 2px solid black;
+    text-decoration: #000;
+  }
+
+  input::placeholder{
+    color: black;
+  }
+
+  .addPOForm{
+    // border: 2px solid black;
+    height: 50vh;
+    margin-left: 1.5%;
+    width: 95vw;
+    margin-top: 1rem;
+    overflow-y: scroll ;
+    box-shadow: 0 6px 6px #4f000b, 0 6px 0 #002851, -1px 0px 0 #003872,
+    0px 0px 0 #003872, 0px 7px 8px #000, 0 7px 20px #1b1b1b;
+
+  }
+
+  .selectMaterial{
+    padding: 0.5rem 0.1rem;
+    background-color: white;
+    border: 2px solid black;
+    text-decoration: #000;
+  }
+
+  .removePOButton{
+    padding: 1rem 1rem;
+    margin-left: 1%;
+    background-color: black;
+    border: none;
+    color: white; 
+    margin-left: 50%;
+    border-radius: 1rem;
+  }
+
+  .removePOButton:hover{
+    background-color: red;
+  }
+
+  .addNewPOButton{
+    padding: 1rem 1rem;
+    background-color: black;
+    border: none;
+    color: white;
+    margin-left: 50%;
+    margin-top: 1%;
+    border-radius: 1rem;
+  }
+
+  .addNewPOButton:hover{
+    background-color: rgb(35, 218, 19);
+  }
+
+  .submitPOBtn{
+    padding: 1rem 1rem;
+    background-color: black;
+    border: none;
+    color: white;
+    margin-top: 2%;
+    margin-left: 20%;
+    border-radius: 1rem;
+  }
+
+  .submitPOBtn:hover{
+    background-color: rgb(35, 218, 19);
+  }
+
+  .closePOBtn{
+    padding: 1rem 1rem;
+    background-color: black;
+    border: none;
+    color: white;
+    margin-top: 2%;
+    margin-left: 60%;
+    border-radius: 1rem;
+  }
+
+  .closePOBtn:hover{
+    background-color: red;
+  }
+}

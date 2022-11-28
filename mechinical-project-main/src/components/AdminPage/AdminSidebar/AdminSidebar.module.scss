@@ -1,0 +1,21 @@
+.adminSidebar{
+    height: 85vh;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    background-color: black;
+
+button{
+    padding: 1.5rem ;
+    margin-top: 2%;
+    margin-bottom: 2%;
+     background-color: rgb(8, 134, 192);
+    border: black;
+    border-radius: 1rem;
+    color: black;
+}
+  button:hover{
+        background-color:rgb(16, 84, 129);
+    }
+}
